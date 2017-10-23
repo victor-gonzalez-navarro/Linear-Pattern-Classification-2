@@ -4,9 +4,9 @@ clear;
 close all;  % close all previous figures
 
 %% Options / Initalitation
-i_dib=1;				 %0 NO /1 YES: plot spectrums
-V_coor=1:64;             % 256 to take all features set 1:256
-%V_coor=[16 50];         % EXAMPLE: Selection of a subset of two features
+i_dib=1;				 % 0 NO /1 YES: plot spectrums
+V_coor=1:64;             % 256 to take all features set 1:256 
+%V_coor=[18 63];         % EXAMPLE: Selection of a subset of two features [25, 60]
 
 N_feat=length(V_coor);
 % class name: Labels:
